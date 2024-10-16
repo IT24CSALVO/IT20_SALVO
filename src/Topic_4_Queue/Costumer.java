@@ -10,6 +10,14 @@ package Topic_4_Queue;
  *
  * @author User
  */
-class Costumer {
-    
+public class Costumer {
+    private String name;
+
+    public Costumer(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
