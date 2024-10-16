@@ -11,5 +11,17 @@ package Arrays;
  * @author User
  */
 public class Simple_Implementation {
-    
+    public static void main(String[] args) {
+       String [] colors = {"Pink","Red","Black","Green"};
+       //printing what colors using the index inside the array
+       System.out.println(colors[3]);
+       System.out.println(colors[2]);
+       System.out.println(colors[1]); 
+       
+       //output
+       /*Green
+         Black
+         Red */
+       
+    }
 }
